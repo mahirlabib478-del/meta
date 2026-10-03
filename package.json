@@ -2,10 +2,11 @@
   "name": "metaflow-local-demo",
   "version": "1.0.0",
   "private": true,
-  "description": "Local-only demo dashboard browser controller",
+  "description": "Local-only demo dashboard and browser test fixture",
   "scripts": {
     "start": "node browser-controller.js",
-    "test:browser": "node browser-controller.js --test"
+    "test:browser": "node browser-controller.js --test",
+    "demo:browser": "node browser-controller.js"
   },
   "devDependencies": {
     "playwright": "^1.55.0"
